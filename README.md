@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="workshops/01/assets/logo_ai4uni.png" alt="AI4Uni Logo" width="200"/>
+  <img src="ai4unilogo.png" alt="AI4Uni Logo" width="200"/>
 </p>
 
 # 🤖 AI4Uni – Empowering Universities with Ethical AI
