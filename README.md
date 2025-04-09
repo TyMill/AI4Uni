@@ -22,6 +22,7 @@
 **Duration:** September 2024 – April 2027  
 **Coordinator:** University of Szczecin, Poland  
 **Partners:** 🇵🇱 🇷🇼 🇬🇪 🇨🇦 🇳🇬 🇺🇦 🇧🇦
+
 **Site** [AI4Uni](https://ai4uni.usz.edu.pl/)
 
 ---
