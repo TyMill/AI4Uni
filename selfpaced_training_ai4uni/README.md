@@ -6,8 +6,9 @@ Here you’ll find interactive Jupyter notebooks that will help you build your f
 
 ## 📚 Contents
 - `01_weather_prediction_nn.ipynb` – predict weather using a neural network
-- `02_my_first_llm_local.ipynb` – run a local chatbot with open-source models (coming soon)
-- `03_self_prompting_playground.ipynb` – practical exercises with ChatGPT-style models (coming soon)
+- `02_my_first_llm_local.ipynb` – run a local chatbot with open-source models
+- `03_self_prompting_playground.ipynb` – practical exercises with ChatGPT-style models
+- more - coming soon!
 
 ## 🚀 How to Use
 Open any notebook in [Google Colab](https://colab.research.google.com) or run locally in Jupyter. No prior AI experience needed!
