@@ -2,6 +2,9 @@
   <img src="ai4unilogo.png" alt="AI4Uni Logo" width="200"/>
 </p>
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.15180202.svg)](https://doi.org/10.5281/zenodo.15180202)
+
+
 # 🤖 AI4Uni – Empowering Universities with Ethical AI
 
 
