@@ -20,6 +20,10 @@ This repository contains all the workshop materials:
 - 🎓 `student_prediction_model.ipynb` – A simple linear regression notebook that predicts the number of students who will actually start their studies, based on the number of births and accepted applicants.
 - 📊 AI prompt cards – Useful prompts for administrative AI tasks using ChatGPT.
 
+---
+
+📌 *Want to run the notebook in Colab? Just click the badge below!*  
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TyMill/AI4Uni/blob/main/workshops/01/student_prediction_model.ipynb)
 
 ## 📌 Project Goals (AI4Uni)
 
