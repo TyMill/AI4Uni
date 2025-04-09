@@ -11,7 +11,7 @@ Each prompt is designed to reflect real university tasks.
 
 > **Prompt:**  
 > Translate the following text into English:  
-> _Witamy na warsztatach AI4Uni! Jesteśmy ciekawi, jak sztuczna inteligencja może wesprzeć codzienną pracę uczelni._
+> "Witamy na warsztatach AI4Uni! Jesteśmy ciekawi, jak sztuczna inteligencja może wesprzeć codzienną pracę uczelni."
 
 ---
 
