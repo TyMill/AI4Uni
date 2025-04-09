@@ -62,7 +62,7 @@ Explore the `/workshops/01/` folder for full examples from our April 2025 traini
 ## 📬 Contact
 
 **Tymoteusz Miller, PhD**  
-Coordinator of AI4Uni activities at the University of Szczecin  
+Coordinator of the repository of training courses conducted independently within AI4Uni at the University of Szczecin
 📧 tymoteusz.miller@usz.edu.pl
 
 ---
