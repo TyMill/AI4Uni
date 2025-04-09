@@ -1,4 +1,9 @@
+<p align="center">
+  <img src="workshops/01/assets/logo_ai4uni.png" alt="AI4Uni Logo" width="200"/>
+</p>
+
 # 🤖 AI4Uni – Empowering Universities with Ethical AI
+
 
 **AI4Uni** is an Erasmus+ project (2024–2027) focused on increasing the organizational capacity of universities to responsibly use Artificial Intelligence in their daily operations.
 
@@ -69,3 +74,4 @@ Coordinator of the repository of training courses conducted independently within
 
 📌 *Want to run the notebook in Colab? Just click the badge below!*  
 [![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TyMill/AI4Uni/blob/main/workshops/01/student_prediction_model.ipynb)
+
