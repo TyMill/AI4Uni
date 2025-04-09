@@ -5,7 +5,7 @@ Welcome to the official repository for the **AI4Uni Workshop** hosted during the
 
 ## 🎯 About the Workshop
 
-The workshop titled **"AI in Daily University Work: Practical Applications and Ethical Challenges"** was conducted as part of the Erasmus+ project [AI4Uni](https://ai4uni.eu) (2024–2027), which aims to increase the organizational capacity of higher education institutions (HEIs) to **responsibly use AI solutions**.
+The workshop titled **"AI in Daily University Work: Practical Applications and Ethical Challenges"** was conducted as part of the Erasmus+ project [AI4Uni]([https://www.facebook.com/ai4uni]) (2024–2027), which aims to increase the organizational capacity of higher education institutions (HEIs) to **responsibly use AI solutions**.
 
 **Audience**: International university staff
 
