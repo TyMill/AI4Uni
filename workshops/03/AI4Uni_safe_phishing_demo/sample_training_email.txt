@@ -1,0 +1,15 @@
+Subject: Action required: Microsoft 365 account verification
+
+Dear Colleague,
+
+Due to a recent security update, all university Microsoft 365 users are required to verify their account within 24 hours.
+
+Please use the verification page shown during the training session.
+
+Failure to complete this process may result in temporary suspension of access to university services.
+
+Best regards,
+IT Support Team
+
+TRAINING NOTE:
+This is a safe fictional email for awareness training. Do not send it as a real email.

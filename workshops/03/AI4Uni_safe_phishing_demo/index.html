@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>AI4Uni Safe Phishing Awareness Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    :root {
+      --bg: #f5f6f8;
+      --card: #ffffff;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --danger: #b91c1c;
+      --blue: #2563eb;
+      --border: #d1d5db;
+      --green: #047857;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+    }
+    .banner {
+      background: #111827;
+      color: white;
+      padding: 12px 24px;
+      text-align: center;
+      font-size: 14px;
+      letter-spacing: .2px;
+    }
+    .wrap {
+      min-height: calc(100vh - 48px);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 32px;
+    }
+    .card {
+      width: 100%;
+      max-width: 440px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      box-shadow: 0 18px 50px rgba(0,0,0,.10);
+      padding: 34px;
+    }
+    .logo {
+      font-weight: 700;
+      font-size: 24px;
+      margin-bottom: 8px;
+    }
+    .sub {
+      color: var(--muted);
+      margin-bottom: 24px;
+      font-size: 14px;
+      line-height: 1.5;
+    }
+    label {
+      display: block;
+      margin: 14px 0 6px;
+      font-size: 14px;
+      font-weight: 600;
+    }
+    input {
+      width: 100%;
+      padding: 12px 13px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      font-size: 15px;
+      background: #f9fafb;
+    }
+    .btn {
+      width: 100%;
+      margin-top: 22px;
+      padding: 12px 16px;
+      border: none;
+      border-radius: 8px;
+      background: var(--blue);
+      color: white;
+      font-weight: 700;
+      font-size: 15px;
+      cursor: pointer;
+    }
+    .fineprint {
+      margin-top: 20px;
+      font-size: 12px;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+    .hidden { display: none; }
+    .warning h1 {
+      color: var(--danger);
+      font-size: 26px;
+      margin: 0 0 10px;
+    }
+    .warning p {
+      line-height: 1.55;
+    }
+    .flags {
+      margin-top: 18px;
+      padding: 16px;
+      background: #fff7ed;
+      border: 1px solid #fed7aa;
+      border-radius: 10px;
+    }
+    .flags ul {
+      margin: 8px 0 0 18px;
+      padding: 0;
+      line-height: 1.7;
+    }
+    .safe {
+      margin-top: 18px;
+      padding: 14px;
+      background: #ecfdf5;
+      border: 1px solid #a7f3d0;
+      color: var(--green);
+      border-radius: 10px;
+      font-weight: 700;
+    }
+    .actions {
+      margin-top: 20px;
+      display: flex;
+      gap: 10px;
+    }
+    .secondary {
+      flex: 1;
+      padding: 11px;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      background: white;
+      cursor: pointer;
+      font-weight: 600;
+    }
+    .urlbar {
+      max-width: 760px;
+      margin: 24px auto 0;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 12px 16px;
+      color: var(--muted);
+      font-size: 13px;
+      box-shadow: 0 8px 30px rgba(0,0,0,.06);
+    }
+    code { color: var(--danger); }
+  </style>
+</head>
+<body>
+  <div class="banner">
+    AI4Uni OFFLINE DEMO — Safe phishing awareness simulation. No credentials are collected or transmitted.
+  </div>
+
+  <div class="urlbar">
+    Training prompt: “Would you trust this page after receiving a Microsoft 365 verification email?” 
+    Simulated suspicious domain: <code>university-secure-login.example</code>
+  </div>
+
+  <main class="wrap">
+    <section class="card" id="loginCard" aria-label="Safe training login simulation">
+      <div class="logo">Microsoft 365</div>
+      <div class="sub">
+        University account verification required. Please sign in to confirm your academic profile.
+      </div>
+
+      <label for="email">Email address</label>
+      <input id="email" type="text" value="demo.user@university.example" autocomplete="off" readonly>
+
+      <label for="password">Password</label>
+      <input id="password" type="password" value="not-collected" autocomplete="off" readonly>
+
+      <button class="btn" onclick="showWarning()">Sign in</button>
+
+      <div class="fineprint">
+        This is a local training simulation. Fields are read-only and no data leaves this device.
+      </div>
+    </section>
+
+    <section class="card warning hidden" id="warningCard" aria-label="Phishing warning">
+      <h1>Stop. This was a phishing simulation.</h1>
+      <p>
+        Nobody collected your password. This page is intentionally safe and runs offline.
+        The goal is to show how convincing a fake login page can look.
+      </p>
+
+      <div class="flags">
+        <strong>Red flags to discuss:</strong>
+        <ul>
+          <li>Pressure in the email: “verify within 24 hours”.</li>
+          <li>Suspicious or look-alike domain.</li>
+          <li>Generic “IT Support” identity.</li>
+          <li>Unexpected login request after clicking a link.</li>
+          <li>No independent verification through the official university portal.</li>
+        </ul>
+      </div>
+
+      <div class="safe">
+        Safe behaviour: close the page, do not enter credentials, verify through official channels.
+      </div>
+
+      <div class="actions">
+        <button class="secondary" onclick="resetDemo()">Reset demo</button>
+        <button class="secondary" onclick="window.print()">Print checklist</button>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    function showWarning() {
+      document.getElementById("loginCard").classList.add("hidden");
+      document.getElementById("warningCard").classList.remove("hidden");
+    }
+    function resetDemo() {
+      document.getElementById("warningCard").classList.add("hidden");
+      document.getElementById("loginCard").classList.remove("hidden");
+    }
+  </script>
+</body>
+</html>
